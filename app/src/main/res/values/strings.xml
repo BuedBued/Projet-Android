@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AcquistoCyril</string>
+    <string name="text_bienvenue">Bienvenue sur l\'application de Cyril Acquisto</string>
+    <string name="text_btn_accueil1">Poster un nouvel article</string>
+    <string name="text_btn_accueil2">Rechercher un article par prix</string>
+    <string name="text_btn_accueil3">Rechercher un article par ville</string>
+</resources>
