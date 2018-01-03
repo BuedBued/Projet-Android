@@ -4,4 +4,13 @@
     <string name="text_btn_accueil1">Poster un nouvel article</string>
     <string name="text_btn_accueil2">Rechercher un article par prix</string>
     <string name="text_btn_accueil3">Rechercher un article par ville</string>
+    <string name="titre_Ajout_article">Ajouter un article</string>
+    <string name="label_nom">Nom de l\'article</string>
+    <string name="label_Prix">Prix de l\'article</string>
+    <string name="label_Descriptif">Descriptif de l\'article</string>
+    <string name="label_Ville">Localité du vendeur</string>
+    <string name="label_Etat">Etat de l\'article</string>
+    <string name="radio_etat_neuf">Neuf</string>
+    <string name="radio_etat_utilise">Utilisé</string>
+    <string name="label_info">Information concernant la réception du l\'article</string>
 </resources>
