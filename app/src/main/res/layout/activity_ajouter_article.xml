@@ -25,9 +25,8 @@
             android:textSize="20sp"/>
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:defaultFocusHighlightEnabled="true"
             android:ems="10"
             android:inputType="textMultiLine"
@@ -50,9 +49,8 @@
 
         <EditText
             android:id="@+id/input_Descriptif"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
             android:ems="10"
             android:inputType="textMultiLine"
             android:selectAllOnFocus="false"
@@ -75,10 +73,8 @@
             android:textSize="20sp"/>
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:defaultFocusHighlightEnabled="false"
             android:ems="10"
             android:inputType="numberDecimal"
             android:singleLine="true" />
@@ -93,8 +89,7 @@
         <TextView
             android:id="@+id/labelEtat"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_height="wrap_content"
             android:text="@string/label_Etat"
             android:textSize="20sp"/>
 
@@ -135,10 +130,8 @@
             android:textSize="20sp"/>
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:defaultFocusHighlightEnabled="false"
             android:ems="10"
             android:inputType="textMultiLine"
             android:singleLine="true" />
@@ -165,19 +158,46 @@
 
             <RadioButton
                 android:id="@+id/radioButton3"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton"
+                android:text="@string/radio_envoye"
                 />
 
             <RadioButton
                 android:id="@+id/radioButton4"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="RadioButton" />
+                android:text="@string/radio_main_propre" />
         </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <Button
+            android:id="@+id/button_ajouter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_ajouter" />
+
+        <Button
+            android:id="@+id/button_effacer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_effacer" />
+
+        <Button
+            android:id="@+id/button_retour"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_retour"/>
     </LinearLayout>
 
 </LinearLayout>

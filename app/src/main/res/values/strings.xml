@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">AcquistoCyril</string>
     <string name="text_bienvenue">Bienvenue sur l\'application de Cyril Acquisto</string>
-    <string name="text_btn_accueil1">Poster un nouvel article</string>
-    <string name="text_btn_accueil2">Rechercher un article par prix</string>
-    <string name="text_btn_accueil3">Rechercher un article par ville</string>
+    <string name="btn_accueil_Ajout_Article">Poster un nouvel article</string>
+    <string name="btn_accueil_rechercher_article_prix">Rechercher un article par prix</string>
+    <string name="btn_accueil_recherche_article_ville">Rechercher un article par ville</string>
     <string name="titre_Ajout_article">Ajouter un article</string>
     <string name="label_nom">Nom de l\'article</string>
     <string name="label_Prix">Prix de l\'article</string>
@@ -13,4 +13,13 @@
     <string name="radio_etat_neuf">Neuf</string>
     <string name="radio_etat_utilise">Utilisé</string>
     <string name="label_info">Information concernant la réception du l\'article</string>
+    <string name="radio_envoye">Envoyé</string>
+    <string name="radio_main_propre">A récupérer en main propre</string>
+    <string name="btn_ajouter">Ajouter</string>
+    <string name="btn_effacer">Effacer</string>
+    <string name="btn_retour">Retour</string>
+    <string name="titre_recherche">Rechercher un article</string>
+    <string name="text_prix_minimum">Prix minimum :</string>
+    <string name="text_prix_maximum">Prix maximum :</string>
+    <string name="btn_rechercher">Rechercher</string>
 </resources>

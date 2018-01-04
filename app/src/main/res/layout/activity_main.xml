@@ -23,7 +23,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/text_btn_accueil1" />
+            android:text="@string/btn_accueil_Ajout_Article" />
     </FrameLayout>
 
     <FrameLayout
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/text_btn_accueil2" />
+            android:text="@string/btn_accueil_rechercher_article_prix" />
 
     </FrameLayout>
 
@@ -50,6 +50,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/text_btn_accueil3" />
+            android:text="@string/btn_accueil_recherche_article_ville" />
     </FrameLayout>
 </LinearLayout>
