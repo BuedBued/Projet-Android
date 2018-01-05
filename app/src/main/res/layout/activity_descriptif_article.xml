@@ -20,13 +20,13 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="5">
+        android:layout_weight="4">
 
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:padding="10dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/labelNom"
@@ -34,20 +34,21 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_nom"
                 android:textSize="20sp"
-                android:paddingRight="10dp"/>
+                android:padding="5dp"/>
 
             <TextView
                 android:id="@+id/inputNom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:padding="5dp"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:padding="10dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/labelDescriptif"
@@ -55,77 +56,81 @@
                 android:layout_height="wrap_content"
                 android:text="@string/label_Descriptif"
                 android:textSize="20sp"
-                android:paddingRight="10dp"/>
+                android:padding="5dp"/>
 
             <TextView
                 android:id="@+id/input_Descriptif"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:padding="5dp"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:padding="10dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/labelEtat"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/label_Etat"
                 android:textSize="20sp"
-                android:paddingRight="10dp"/>
+                android:padding="5dp"/>
 
             <TextView
                 android:id="@+id/inputEtat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:padding="5dp"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:padding="10dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/labelLocalite"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/label_Ville"
                 android:textSize="20sp"
-                android:paddingRight="10dp"/>
+                android:padding="5dp"/>
 
             <TextView
                 android:id="@+id/inputLocalite"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:padding="5dp"/>
         </TableRow>
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:padding="10dp">
+            android:padding="5dp">
 
             <TextView
                 android:id="@+id/labelInfoReception"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/reception_de_l_article"
                 android:textSize="20sp"
-                android:paddingRight="10dp"/>
+                android:padding="5dp"/>
 
             <TextView
                 android:id="@+id/inputInfoReception"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:padding="5dp"/>
         </TableRow>
 
     </TableLayout>
